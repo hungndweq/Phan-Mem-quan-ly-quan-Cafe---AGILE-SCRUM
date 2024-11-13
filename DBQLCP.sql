@@ -1,22 +1,22 @@
 ﻿create database PMQLQCP;
 use PMQLQCP
 
-
+--Le Anh Duc create table Khach Hang
 create table KhachHang( 
  id_khach_hang nvarchar(100) primary key not null,
  ten_khach_hang nvarchar(100) not null,
  email nvarchar(100) not null,
  sdt nvarchar(100) not null
  )
-
- CREATE TABLE SanPham(
-    id_san_pham NVARCHAR(100) NOT NULL PRIMARY KEY,
-    ten_san_pham NVARCHAR(100) NOT NULL,
-    so_luong INT NOT NULL,
-    gia_ban MONEY NOT NULL,
+--Do Trong Kien create table San Pham
+create table SanPham(
+    id_san_pham nvarchar(100) NOT NULL PRIMARY KEY,
+    ten_san_pham nvarchar(100) NOT NULL,
+    so_luong int NOT NULL,
+    gia_ban money NOT NULL,
 );
 
-
+--Do Trung Kien create table Hoa Don and Nhan Vien
 create table HoaDon(
 id_hoa_don nvarchar(100) primary key not null,
 id_san_pham nvarchar(100) not null,
@@ -26,7 +26,7 @@ tong_tien money not null,
 thoi_gian_xuat_hoa_don datetime not null,
 foreign key (id_san_pham) references SanPham(id_san_pham),
 foreign key (id_khach_hang) references KhachHang(id_khach_hang)
-)
+);
 
 
 create table NhanVien(
@@ -36,7 +36,7 @@ ca_lam datetime not null,
 dia_chi nvarchar(100) not null,
 email nvarchar(100) not null,
 sdt nvarchar(100) not null,
-)
+);
 
 
  insert into KhachHang values
