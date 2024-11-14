@@ -20,7 +20,7 @@ const group4 = {
                         Productowner: "Duy Hung,",
                         mentor: "nguyenvv4"
                       },
- challenge: "I am doing the #100DaysOfCode challenge focused on react and typescript"
+ challenge: "We are leading to reach rank in this study course!"
 }
 ```
 
