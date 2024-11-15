@@ -18,7 +18,8 @@ const group4 = {
   techCommunities: {
                         Scrummaster: "Tuan Minh",
                         Productowner: "Duy Hung,",
-                        mentor: "nguyenvv4"
+                        Devsteam: "Trong Kien","Trung Kien","Anh Duc",
+                        mentor: "nguyenvv4 - thay Vu Van Nguyen"
                       },
  challenge: "We are leading to reach rank in this study course!"
 }
