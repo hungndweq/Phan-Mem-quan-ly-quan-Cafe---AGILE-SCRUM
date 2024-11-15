@@ -1,5 +1,5 @@
-﻿create database newdatabase;
-use newdatabase
+﻿create database QLQCP;
+use QLQCP
 
 --Le Anh Duc create table Khach Hang
 create table KhachHang( 
